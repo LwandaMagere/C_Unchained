@@ -9,8 +9,8 @@ int main(void)
     puts("Here are some strings:");
     puts(MSG);
     puts(words);
-    puts(pt1);  /// pointer
-    words[8] = 'p';
+    puts(pt1);
     puts(words);
+    
     return 0;
 }
