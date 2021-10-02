@@ -7,7 +7,7 @@ int main(void)
     int count;
 
     printf("Please enter 2 names.\n");
-    count = scanf("5%s %10s", name1, name2);
+    count = scanf("%5s %10s", name1, name2);
     printf("I read the %d names %s and %s.\n", count, name1, name2);
 
     return 0;
